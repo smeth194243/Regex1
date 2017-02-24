@@ -38,7 +38,25 @@ public class RegexPanel extends JPanel
 		lNLabel = new JLabel("Last Name");
 		pNLabel = new JLabel("Phone number");
 		vELabel = new JLabel("Valid Email");
-		doesTalking = new JButton();
+		doesTalking = new JButton("Validate information");
+		
+		this.setupPanel();
+		this.setupLayout();
+		this.setupListeners();
 	}
 	
+	public void setupPanel()
+	{
+		
+	}
+	
+	public void setupLayout()
+	{
+	
+	}
+	
+	public void setupListeners()
+	{
+		
+	}
 }
