@@ -47,7 +47,15 @@ public class RegexPanel extends JPanel
 	
 	public void setupPanel()
 	{
-		
+		this.add(doesTalking);
+		this.add(fNLabel);
+		this.add(firstName);
+		this.add(lNLabel);
+		this.add(lastName);
+		this.add(pNLabel);
+		this.add(phoneNumber);
+		this.add(vELabel);
+		this.add(validEmail);
 	}
 	
 	public void setupLayout()
