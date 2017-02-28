@@ -120,7 +120,7 @@ public class RegexPanel extends JPanel
 					validPhone = phoneJSONObject.getBoolean("valid") != null && phoneJSONObject.getBoolean("valid");
 				}
 				
-				String email = emailField.getText().replaceAll("\\s+", "");
+				String email = validEmail.getText().replaceAll("\\s+", "");
 				String emailURL = "http://apilayer.net/api/check?access_key=db2e54d32073ef1ae2585fd7a7799d1c&email=" + email +"&smtp=1&format=1";
 				String emailJSON = getJSONFromURL(emailURL);
 				JsonObject emailJSONObject = Jsoner.deserialize(emailJSON, new JsonObject());
